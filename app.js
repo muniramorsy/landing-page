@@ -64,7 +64,7 @@ sec2.className="your-active-class"
 1: creat div by hrml to be parent of button and.give it position relative
 2:creat btn by js 
 3:make it clickable*/
-//let footerEle=document.querySelector("footer")
+//let footerEle=document.querySelector("footer")that is bad idea i cant add btn before footer without parent i want add to btn position fixed
 let divBtn= document.querySelector(".btn")
 let upBtn=document.createElement("button")
 //footerEle.before(upBtn)
