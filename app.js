@@ -102,4 +102,4 @@ upBtn.onclick=function(){
   })
 };
 
-console.log(window.screenY)
+
