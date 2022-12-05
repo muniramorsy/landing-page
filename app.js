@@ -57,7 +57,30 @@ for(let j=0;j<=arrLiElement.length-1;j++){
 
 
 /*adding active class to oncliced section*/
-sec2.className="your-active-class"
+allaElemant[0].onmouseenter=function(){
+sec1.className="your-active-class"
+sec2.classList.remove("your-active-class")
+sec3.classList.remove("your-active-class")
+sec4.classList.remove("your-active-class")}
+
+allaElemant[1].onmouseenter=function(){
+  sec2.className="your-active-class"
+  sec1.classList.remove("your-active-class")
+  sec3.classList.remove("your-active-class")
+  sec4.classList.remove("your-active-class")}
+
+  allaElemant[2].onmouseenter=function(){
+    sec3.className="your-active-class"
+    sec1.classList.remove("your-active-class")
+    sec2.classList.remove("your-active-class")
+    sec4.classList.remove("your-active-class")}
+
+
+    allaElemant[3].onmouseenter=function(){
+      sec4.className="your-active-class"
+      sec2.classList.remove("your-active-class")
+      sec3.classList.remove("your-active-class")
+      sec1.classList.remove("your-active-class")}
 
 
 /* creat button to scroll up and style it
